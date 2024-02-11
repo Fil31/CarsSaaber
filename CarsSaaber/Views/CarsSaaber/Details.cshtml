@@ -1,0 +1,56 @@
+﻿@model CarsSaaber.Models.CarsSaaber.CarsSaaberDetailsViewModel
+
+<h1>Details</h1>
+
+<div>
+    <h4>Car</h4>
+    <hr />
+    <dl class="row">
+        <div class="form-group row">
+            <label asp-for="Id" class="col-sm-2 col-form-label"></label>
+            @Html.DisplayFor(model => Model.Id)
+        </div>
+
+        <div class="form-group row">
+            <label asp-for="Price" class="col-sm-2 col-form-label"></label>
+            @Html.DisplayFor(model => Model.Price)
+        </div>
+
+        <div class="form-group row">
+            <label asp-for="Brand" class="col-sm-2 col-form-label"></label>
+            @Html.DisplayFor(model => Model.Brand)
+        </div>
+
+        <div class="form-group row">
+            <label asp-for="Model" class="col-sm-2 col-form-label"></label>
+            @Html.DisplayFor(model => Model.Model)
+        </div>
+
+        <div class="form-group row">
+            <label asp-for="Year" class="col-sm-2 col-form-label"></label>
+            @Html.DisplayFor(model => Model.Year)
+        </div>
+
+        <div class="form-group row">
+            <label asp-for="Color" class="col-sm-2 col-form-label"></label>
+            @Html.DisplayFor(model => Model.Color)
+        </div>
+
+        <div class="form-group row">
+            <label asp-for="Discount" class="col-sm-2 col-form-label"></label>
+            @Html.DisplayFor(model => Model.Discount)
+        </div>
+
+        <div class="form-group row">
+            <label asp-for="CreatedAt" class="col-sm-2 col-form-label"></label>
+            @Html.DisplayFor(model => Model.CreatedAt)
+        </div>
+
+        <div class="form-group row">
+            <label asp-for="UpdatedAt" class="col-sm-2 col-form-label"></label>
+            @Html.DisplayFor(model => Model.UpdatedAt)
+        </div>
+    </dl>
+    <hr />
+    <a asp-action="index" class="btn btn-primary">Index</a>
+</div>

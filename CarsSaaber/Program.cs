@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using CarsSaaber.Data;
+using CarsSaaber.Core.ServiceInterface;
+using CarsSaaber.ApplicationServices.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +10,8 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<CarsContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddScoped<ICarsSaaberServices, CarsSaaberServices>();
 
 var app = builder.Build();
 

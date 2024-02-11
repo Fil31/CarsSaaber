@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using CarsSaaber.Core.Domain;
+using Microsoft.EntityFrameworkCore;
 
 namespace CarsSaaber.Data
 {
@@ -7,5 +8,7 @@ namespace CarsSaaber.Data
         public CarsContext(DbContextOptions<CarsContext> options) : base(options)
         {
         }
+
+        public DbSet<Cars> CarsSaaber { get; set; }
     }
 }

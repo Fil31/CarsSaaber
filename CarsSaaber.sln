@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarsSaaber.Core", "CarsSaab
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarsSaaber.ApplicationServices", "CarsSaaber.ApplicationServices\CarsSaaber.ApplicationServices.csproj", "{DCE0FE9F-3A89-4E02-8796-C65D07EDE60B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarsSaaber.CarsSaaberTest", "CarsSaaber.CarsSaaberTest\CarsSaaber.CarsSaaberTest.csproj", "{4699D224-B455-4758-A2DC-9AC501E09E65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{DCE0FE9F-3A89-4E02-8796-C65D07EDE60B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCE0FE9F-3A89-4E02-8796-C65D07EDE60B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCE0FE9F-3A89-4E02-8796-C65D07EDE60B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4699D224-B455-4758-A2DC-9AC501E09E65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4699D224-B455-4758-A2DC-9AC501E09E65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4699D224-B455-4758-A2DC-9AC501E09E65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4699D224-B455-4758-A2DC-9AC501E09E65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
